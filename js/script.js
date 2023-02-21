@@ -650,8 +650,16 @@ ask(
 
 /* eslint prefer-const: 0 */
 
-let arr = ['a', 'b', 'c', 'd', 'e'];
+let ob = {
+	name: 'Bob',
+	age: 55,
+	"height_admin": 171,
+};
 
-for( let elem of arr) {
-	console.log(elem);
-}
+ob.isAdmin = true;
+delete ob.isAdmin;
+
+console.log(ob.name);
+console.log(ob.isAdmin);
+console.log(ob.height_admin);
+
