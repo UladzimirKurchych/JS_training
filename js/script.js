@@ -650,15 +650,3 @@ ask(
 
 /* eslint prefer-const: 0 */
 
-let ob = {
-	name: 'Bob',
-	age: 55,
-	"height admin": 171,
-};
-
-ob.isAdmin = true;
-delete ob.isAdmin;
-
-console.log(ob.name);
-console.log(ob.isAdmin);
-console.log(ob["height admin"]);
