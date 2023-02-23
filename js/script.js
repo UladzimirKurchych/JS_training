@@ -650,10 +650,3 @@ ask(
 
 /* eslint prefer-const: 0 */
 
-let fruit = prompt("Какой фрукт купить?", "apple");
-
-let bag = {
-  [fruit]: 5,
-};
-
-alert( bag.apple );
