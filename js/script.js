@@ -650,3 +650,13 @@ ask(
 
 /* eslint prefer-const: 0 */
 
+function makeUser(name, age) {
+	return{
+		name: name,
+		age: age,
+	}
+}
+
+let user = makeUser('Jon', 38);
+
+alert(user.age);
