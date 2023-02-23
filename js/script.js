@@ -657,4 +657,8 @@ let car = {
 
 let answer = prompt('Что вы хотите узнать об автомобиле?', 'car model');
 
-alert(car[answer]);
+if(answer) {
+  alert(car[answer]);
+} else {
+	alert('Вы не ответили');
+}
