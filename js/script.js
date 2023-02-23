@@ -650,3 +650,11 @@ ask(
 
 /* eslint prefer-const: 0 */
 
+let car = {
+	'car model': "BMW",
+	'car color': "red",
+}
+
+let answer = prompt('Что вы хотите узнать об автомобиле?', 'car model');
+
+alert(car[answer]);
