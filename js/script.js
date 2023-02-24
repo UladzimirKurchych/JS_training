@@ -650,14 +650,4 @@ ask(
 
 /* eslint prefer-const: 0 */
 
-function user(name, age) {
-	return{
-		name,
-		age: 30,
-	}
-}
-
-let infoUser = user('Bob');
-alert(infoUser.name);
-alert(infoUser.age);
 
