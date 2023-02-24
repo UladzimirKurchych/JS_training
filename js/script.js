@@ -653,11 +653,11 @@ ask(
 function user(name, age) {
 	return{
 		name,
-		age,
+		age: 30,
 	}
 }
 
-let infoUser = user('Bob', 30);
+let infoUser = user('Bob');
 alert(infoUser.name);
 alert(infoUser.age);
 
