@@ -650,6 +650,11 @@ ask(
 
 /* eslint prefer-const: 0 */
 
-let obj = {};
-obj.__proto__ = 5;
-alert(obj.__proto__);
+
+let user = {
+	name: null,
+	age: 38,
+}
+
+
+ alert('name' in user);
