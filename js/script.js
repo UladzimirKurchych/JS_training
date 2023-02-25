@@ -650,11 +650,18 @@ ask(
 
 /* eslint prefer-const: 0 */
 
+let codes = {
+  "+49": "Германия",
+  "+41": "Швейцария",
+  "+44": "Великобритания",
+  // ..,
+  "+1": "США"
+};
 
-let user = {
-	name: null,
-	age: 38,
+for (let code in codes) {
+  alert( +code );
 }
 
 
- alert('name' in user);
+
+
