@@ -651,16 +651,6 @@ ask(
 /* eslint prefer-const: 0 */
 
 
-for(i = 1; i < 4; i++) {
-  
-  for(a = 10; a < 14; a++) {
- alert(a);
-}
-  
-alert(i);
-
-
-}
 
 
 
