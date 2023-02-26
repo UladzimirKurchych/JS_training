@@ -650,16 +650,16 @@ ask(
 
 /* eslint prefer-const: 0 */
 
-let codes = {
-  "+49": "Германия",
-  "+41": "Швейцария",
-  "+44": "Великобритания",
-  // ..,
-  "+1": "США"
-};
 
-for (let code in codes) {
-  alert( +code );
+for(i = 1; i < 4; i++) {
+  alert(i);
+  for(a = 10; a < 14; a++) {
+ alert(a);
+}
+  
+
+
+
 }
 
 
