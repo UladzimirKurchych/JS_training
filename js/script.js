@@ -652,12 +652,12 @@ ask(
 
 
 for(i = 1; i < 4; i++) {
-  alert(i);
+  
   for(a = 10; a < 14; a++) {
  alert(a);
 }
   
-
+alert(i);
 
 
 }
