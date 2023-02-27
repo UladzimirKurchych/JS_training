@@ -651,3 +651,10 @@ ask(
 /* eslint prefer-const: 0 */
 
 
+let user = {
+	name: 'Jhon',
+}
+
+let secondUser = user;
+
+console.log( 'name' in secondUser);
