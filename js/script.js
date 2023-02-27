@@ -543,7 +543,7 @@ let z = 1;
 sum3(z, 1);
 sum3(1, 2, 3, 4);
 
-                                     return
+//                                     return
 
 
 
@@ -651,15 +651,3 @@ ask(
 /* eslint prefer-const: 0 */
 
 
-let wyplaty = {
-  Mirek: 4000,
-	Damjan: 3500,
-  Wlodek: 3000,
-}
-let sum = 0;
-
-for( let key in wyplaty) {
-  sum += wyplaty[key];
-}
-
-console.log(sum + 'zl.');
