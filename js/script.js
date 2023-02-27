@@ -651,3 +651,9 @@ ask(
 /* eslint prefer-const: 0 */
 
 
+let ob = {
+  a: 1,
+
+}
+
+console.log( ob.hasOwnProperty('a') );
