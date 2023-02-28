@@ -650,4 +650,10 @@ ask(
 
 /* eslint prefer-const: 0 */
 
-
+for ( a = 1; a < 6; a++ ) {
+	
+	for ( b = 11; b < 14; b++ ) {
+		alert(b);
+	}
+	alert(a);
+}
