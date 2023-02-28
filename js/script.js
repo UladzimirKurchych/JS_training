@@ -651,3 +651,26 @@ ask(
 /* eslint prefer-const: 0 */
 
 
+let user = {
+	name: 'Bob',
+	age: 13,
+};
+
+let clon = {};
+
+for ( let key in user) {
+    clon[key] = user[key];
+}
+
+console.log(clon.name);
+console.log(clon.age);
+
+clon.name = 'Roman';
+clon.age = 55;
+
+console.log(clon.name);
+console.log(clon.age);
+
+console.log(user.name);
+console.log(user.age);
+
