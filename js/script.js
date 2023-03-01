@@ -665,3 +665,8 @@ console.log(user.name);
 console.log(user.hobby.a);
 
 console.log(clon.hobby.b);
+
+delete user.name;
+
+console.log(user.name);
+console.log(clon.name);
