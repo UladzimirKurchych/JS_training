@@ -650,23 +650,4 @@ ask(
 
 /* eslint prefer-const: 0 */
 
-let user = {
-	name: 'Bobby',
-	age: 13,
-	hobby: {
-		a: 'sport',
-		b: 'music',
-	}
-}
 
-let clon = structuredClone(user);
-
-console.log(user.name);
-console.log(user.hobby.a);
-
-console.log(clon.hobby.b);
-
-delete user.name;
-
-console.log(user.name);
-console.log(clon.name);
