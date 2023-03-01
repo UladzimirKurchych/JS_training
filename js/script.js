@@ -651,15 +651,3 @@ ask(
 /* eslint prefer-const: 0 */
 
 
-let user = {
-	name: 'Roman',
-}
-
-let clon = user;
-
-console.log(clon.name);
-
-delete user.name;
-
-console.log(user.name);
-console.log(clon.name);
