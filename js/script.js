@@ -651,3 +651,8 @@ ask(
 /* eslint prefer-const: 0 */
 
 
+function sumAB( a, b ) {
+	a + b;
+}
+
+sumAB( 1, 2 );
