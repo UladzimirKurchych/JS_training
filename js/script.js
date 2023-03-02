@@ -651,6 +651,3 @@ ask(
 /* eslint prefer-const: 0 */
 
 
-let str = "Привет";
-
-alert( str.toUpperCase() ); // ПРИВЕТ
