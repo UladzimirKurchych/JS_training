@@ -651,3 +651,11 @@ ask(
 /* eslint prefer-const: 0 */
 
 
+let roma = {
+  name: "Рома",
+  sayHi: function() {
+    alert("Привет, дружище!");
+  }
+};
+
+roma.sayHi(); // Привет, дружище!
