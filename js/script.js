@@ -651,3 +651,4 @@ ask(
 /* eslint prefer-const: 0 */
 
 
+console.log(1.e-3);
