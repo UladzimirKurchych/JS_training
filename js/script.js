@@ -650,6 +650,4 @@ ask(
 
 /* eslint prefer-const: 0 */
 
-let sum = (0.1 + 0.2);
-
-console.log(sum.toFixed(2));
+alert( 9999999999999999 );
