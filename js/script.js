@@ -651,11 +651,3 @@ ask(
 /* eslint prefer-const: 0 */
 
 
-let user = {
-	name: 'Roman',
-	sayHi: function() {
-		alert('Hello, Roman!');
-	},
-}
-
-user.sayHi();
