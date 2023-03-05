@@ -650,4 +650,3 @@ ask(
 
 /* eslint prefer-const: 0 */
 
-alert( 9999999999999999 );
