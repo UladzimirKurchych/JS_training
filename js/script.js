@@ -650,5 +650,6 @@ ask(
 
 /* eslint prefer-const: 0 */
 
+let sum = (0.1 + 0.2);
 
-console.log(1.e-3);
+console.log(sum.toFixed(2));
