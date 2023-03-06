@@ -677,4 +677,4 @@ function updateRecords(records, id, prop, value) {
 }
 
 let result = updateRecords(recordCollection, 5439, 'artist', 'ABBA');
-console.log(result);
+console.log(recordCollection.5439[albumtitle]);
