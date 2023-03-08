@@ -674,9 +674,14 @@ const recordCollection = {
 
 // Only change code below this line
 function updateRecords(records, id, prop, value) {
+	if(value !== undefined) {
+		prop = value;
+	} else if ( prop == tracks) {
+		tracks.push(value);
+	}
   return records;
 }
 
-//updateRecords(recordCollection, 5439, 'artist', 'ABBA');
+updateRecords(recordCollection, 5439, 'artist', 'ABBA');
 
-console.log(recordCollection);
+console.log(recordCollection[5439].artist);
