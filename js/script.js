@@ -674,10 +674,8 @@ const recordCollection = {
 
 // Only change code below this line
 function updateRecords(records, id, prop, value) {
-	if(value !== undefined) {
-		prop = value;
-	} else if ( prop == tracks) {
-		tracks.push(value);
+	if (prop !== 'tracks' && value !== undefined) {
+		records[id][prop] = value;
 	}
   return records;
 }
